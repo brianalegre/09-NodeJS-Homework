@@ -56,8 +56,31 @@ const questions = [
 	},
 ];
 
+const createReadme = (data) => {
+	fs.writeFileSync(
+		'./readme.md',
+		`# ${data.project}
+## License
+## Table of Contents
+- [Description](#Description)
+## Description
+${data.usage}
+## Preview
+- Link to preview GIF
+## Contributing
+${data.contribute}
+## Tests
+${data.test}
+## Questions
+- Github: ${data.github} 
+- Email: ${data.email}
+`
+	);
+};
+
 // CLI Prompts
 inquirer.prompt(questions).then((data) => {
+	createReadme(data);
 	const filename = `${data.project.toLowerCase().split(' ').join('')}.json`;
 
 	fs.writeFileSync(filename, JSON.stringify(data, null, '\t'), (err) =>
