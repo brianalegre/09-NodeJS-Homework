@@ -13,6 +13,12 @@ const questions = [
 	},
 	{
 		type: 'input',
+		message: 'Describe your application?',
+		name: 'description',
+		default: 'It does stuff',
+	},
+	{
+		type: 'input',
 		message: 'How do I install your application?',
 		name: 'install',
 		default: 'Copy Pasta',
@@ -27,12 +33,11 @@ const questions = [
 		type: 'checkbox',
 		message: 'What kind of license is used?',
 		name: 'license',
-		choices: ['1', '2', '3', '4'],
-		default: ['3'],
+		choices: ['BSD', 'MIT', 'GPL'],
 	},
 	{
 		type: 'input',
-		message: 'How do I contribute?',
+		message: 'What are the guidelines to contributing?',
 		name: 'contribute',
 		default: 'You can NOT',
 	},
@@ -57,22 +62,62 @@ const questions = [
 ];
 
 const createReadme = (data) => {
+	var license = '';
+	switch (data.license[0]) {
+		case 'BSD':
+			license =
+				'[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
+			break;
+		case 'MIT':
+			license =
+				'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+			break;
+		case 'GPL':
+			license =
+				'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+			break;
+		default:
+			license = 'No License Chosen';
+			break;
+	}
 	fs.writeFileSync(
 		'./readme.md',
 		`# ${data.project}
+
 ## License
+${license}
+
 ## Table of Contents
 - [Description](#Description)
+- [Preview](#Preview)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Test Instructions](#Test-Instructions)
+- [Questions](#Questions)
+
 ## Description
-${data.usage}
+${data.description}
+
 ## Preview
 - Link to preview GIF
+
+## Installation
+${data.install}
+
+## Usage
+- ${data.usage}
+
 ## Contributing
-${data.contribute}
-## Tests
-${data.test}
+- ${data.contribute}
+
+## Test Instructions
+- ${data.test}
+
 ## Questions
-- Github: ${data.github} 
+Questions? Concerns?  Contact Me Below:
+- Github Username: ${data.github}
+- Github Link: https://github.com/${data.github} 
 - Email: ${data.email}
 `
 	);

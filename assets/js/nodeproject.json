@@ -1,9 +1,10 @@
 {
 	"project": "Node Project",
+	"description": "It does stuff",
 	"install": "Copy Pasta",
 	"usage": "Gaining EXP with Node",
 	"license": [
-		"3"
+		"MIT"
 	],
 	"contribute": "You can NOT",
 	"test": "Play with it",
