@@ -9,25 +9,25 @@ const questions = [
 		// File Name
 		name: 'project',
 		message: 'What is your project name?',
-		default: 'Node Project',
+		// default: 'Node Project',
 	},
 	{
 		type: 'input',
 		message: 'Describe your application?',
 		name: 'description',
-		default: 'It does stuff',
+		// default: 'It does stuff',
 	},
 	{
 		type: 'input',
 		message: 'How do I install your application?',
 		name: 'install',
-		default: 'Copy Pasta',
+		// default: 'Copy Pasta',
 	},
 	{
 		type: 'input',
 		message: 'What is your application used for?',
 		name: 'usage',
-		default: 'Gaining EXP with Node',
+		// default: 'Gaining EXP with Node',
 	},
 	{
 		type: 'checkbox',
@@ -39,25 +39,25 @@ const questions = [
 		type: 'input',
 		message: 'What are the guidelines to contributing?',
 		name: 'contribute',
-		default: 'You can NOT',
+		// default: 'You can NOT',
 	},
 	{
 		type: 'input',
 		message: 'How do I test your application?',
 		name: 'test',
-		default: 'Play with it',
+		// default: 'Play with it',
 	},
 	{
 		type: 'input',
 		message: 'What is your Github Username?',
 		name: 'github',
-		default: 'BrianAlegre',
+		// default: 'BrianAlegre',
 	},
 	{
 		type: 'input',
 		message: 'Please enter in your email',
 		name: 'email',
-		default: 'brialegre@yahoo.com',
+		// default: 'brialegre@yahoo.com',
 	},
 ];
 
@@ -85,7 +85,7 @@ const createReadme = (data) => {
 		`# ${data.project}
 
 ## License
-${license}
+- Code released under:  ${license}
 
 ## Table of Contents
 - [Description](#Description)
@@ -97,13 +97,13 @@ ${license}
 - [Questions](#Questions)
 
 ## Description
-${data.description}
+- ${data.description}
 
 ## Preview
 - Link to preview GIF
 
 ## Installation
-${data.install}
+- ${data.install}
 
 ## Usage
 - ${data.usage}

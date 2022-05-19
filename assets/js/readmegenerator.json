@@ -1,0 +1,13 @@
+{
+	"project": "README Generator",
+	"description": "Creates a README File thru a node.js CLI",
+	"install": "Copy the repository to your system, install inquirer, run: node index.js",
+	"usage": "creating a README File",
+	"license": [
+		"BSD"
+	],
+	"contribute": "Be consistent, be kind, be patient",
+	"test": "In the terminal window",
+	"github": "brianalegre",
+	"email": "brialegre@yahoo.com"
+}

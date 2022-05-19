@@ -1,7 +1,7 @@
-# Node Project
+# README Generator
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+- Code released under the: [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Table of Contents
 - [Description](#Description)
@@ -13,25 +13,25 @@
 - [Questions](#Questions)
 
 ## Description
-It does stuff
+Creates a README File thru a node.js CLI
 
 ## Preview
 - Link to preview GIF
 
 ## Installation
-Copy Pasta
+Copy the repository to your system, install inquirer, run: node index.js
 
 ## Usage
-- Gaining EXP with Node
+- creating a README File
 
 ## Contributing
-- You can NOT
+- Be consistent, be kind, be patient
 
 ## Test Instructions
-- Play with it
+- In the terminal window
 
 ## Questions
 Questions? Concerns?  Contact Me Below:
-- Github Username: BrianAlegre
-- Github Link: https://github.com/BrianAlegre 
+- Github Username: brianalegre
+- Github Link: https://github.com/brianalegre 
 - Email: brialegre@yahoo.com
