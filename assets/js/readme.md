@@ -26,7 +26,7 @@
 
 ## Installation
 
--   Copy the repository to your system, npn install
+-   Copy the repository to your system, npm install
 
 ## Usage
 
