@@ -90,11 +90,7 @@ const createReadme = (data) => {
 	fs.writeFileSync(
 		'./readme.md',
 		`# ${data.project}
-
-## License
-- Copyright 2022 Brian Alegre
-- Licensed under the: ${licenseTXT} 
-- ${license}
+${license}
 
 ## Table of Contents
 - [Description](#Description)
@@ -104,6 +100,7 @@ const createReadme = (data) => {
 - [Contributing](#Contributing)
 - [Test Instructions](#Test-Instructions)
 - [Questions](#Questions)
+- [License](#License)
 
 ## Description
 - ${data.description}
@@ -130,6 +127,10 @@ Questions? Concerns?  Contact Me Below:
 - Github Username: ${data.github}
 - Github Link: https://github.com/${data.github} 
 - Email: ${data.email}
+
+## License
+- Copyright 2022 Brian Alegre
+- Licensed under the: ${licenseTXT} 
 `
 	);
 };

@@ -1,9 +1,5 @@
 # README Generator
-
-## License
-- Copyright 2022 Brian Alegre
-- Licensed under the: [MIT License](https://opensource.org/licenses/MIT) 
-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 - [Description](#Description)
@@ -13,6 +9,7 @@
 - [Contributing](#Contributing)
 - [Test Instructions](#Test-Instructions)
 - [Questions](#Questions)
+- [License](#License)
 
 ## Description
 - Creates a README.md thru a node.js CLI
@@ -38,4 +35,8 @@
 Questions? Concerns?  Contact Me Below:
 - Github Username: brianalegre
 - Github Link: https://github.com/brianalegre 
-- Email: Brialegre@yahoo.com
+- Email: brialegre@yahoo.com
+
+## License
+- Copyright 2022 Brian Alegre
+- Licensed under the: [MIT License](https://opensource.org/licenses/MIT) 
