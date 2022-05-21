@@ -1,15 +1,30 @@
 # 09-NodeJS-Homework
 
-# Site Preview
+Create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer)
 
-<p align="center">
-    <img alt="Site Preview" src="./assets/images/SitePreview.png">
+# Application Preview
+
+<p align="left">
+    <img alt="README Gen Demo 1" src="./assets/images/READMEGenDemoGif1.gif">
 </p>
 
-# Github Links
+<p align="left">
+    <img alt="README Gen Demo 2" src="./assets/images/READMEGenDemoGif2.gif">
+</p>
 
--   Repository:
--   Deployed:
+<p align="left">
+    <img alt="README Gen Demo 3" src="./assets/images/READMEGenDemoGif3.gif">
+</p>
+
+<p align="left">
+    <img alt="README Gen Demo 4" src="./assets/images/READMEGenDemoGif4.gif">
+</p>
+
+# Links
+
+-   Github Repository: https://github.com/brianalegre/09-NodeJS-Homework
+-   Video Demo (Youtube): https://www.youtube.com/watch?v=-u86SUE1YF8
+-   Video Demo (Github):
 
 # Criteria
 
@@ -35,5 +50,3 @@
         -   Text Input
         -   Enter Github Username
         -   Enter Email
-
-# Notes and Articles
