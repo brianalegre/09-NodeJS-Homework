@@ -1,7 +1,7 @@
 # README Generator
 
 ## License
-- Code released under the: [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+- Code released under:  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 - [Description](#Description)
@@ -13,22 +13,22 @@
 - [Questions](#Questions)
 
 ## Description
-Creates a README File thru a node.js CLI
+- Creates a README file thru a node.js CLI
 
 ## Preview
 - Link to preview GIF
 
 ## Installation
-Copy the repository to your system, install inquirer, run: node index.js
+- Copy the repository to your system, npn install
 
 ## Usage
-- creating a README File
+- Quickly and Easily create a README.md for your project
 
 ## Contributing
 - Be consistent, be kind, be patient
 
 ## Test Instructions
-- In the terminal window
+- In the terminal window, run: node index.js
 
 ## Questions
 Questions? Concerns?  Contact Me Below:
