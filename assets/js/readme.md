@@ -1,8 +1,10 @@
-# README Generator
+# 123
 
 ## License
 
--   Code released under: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+-   Copyright 2022 Brian Alegre
+-   Licensed under the: [BSD License](https://opensource.org/licenses/BSD-3-Clause)
+-   [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Table of Contents
 
