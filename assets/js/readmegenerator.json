@@ -1,13 +1,13 @@
 {
 	"project": "README Generator",
-	"description": "Creates a README file thru a node.js CLI",
-	"install": "Copy the repository to your system, npn install",
-	"usage": "Quickly and Easily create a README.md for your project",
+	"description": "Creates a README.md thru a node.js CLI",
+	"install": "Copy the repository to your system, npm install",
+	"usage": "Quickly and easily create a README.md for your your project",
 	"license": [
 		"MIT"
 	],
 	"contribute": "Be consistent, be kind, be patient",
 	"test": "In the terminal window, run: node index.js",
 	"github": "brianalegre",
-	"email": "brialegre@yahoo.com"
+	"email": "Brialegre@yahoo.com"
 }

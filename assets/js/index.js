@@ -98,7 +98,7 @@ const createReadme = (data) => {
 
 ## Table of Contents
 - [Description](#Description)
-- [Preview](#Preview)
+- [Application Preview](#Application-Preview)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Contributing](#Contributing)
@@ -108,8 +108,10 @@ const createReadme = (data) => {
 ## Description
 - ${data.description}
 
-## Preview
-- Link to preview GIF
+## Application Preview
+<p align="left">
+<img alt="README Gen Demo 1" src="../../assets/images/READMEGenDemoGif1.gif">
+</p>
 
 ## Installation
 - ${data.install}
