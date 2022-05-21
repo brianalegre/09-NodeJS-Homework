@@ -24,7 +24,8 @@ Create a command-line application that dynamically generates a professional READ
 
 -   Github Repository: https://github.com/brianalegre/09-NodeJS-Homework
 -   Video Demo (Youtube): https://www.youtube.com/watch?v=-u86SUE1YF8
--   Video Demo (Github):
+-   Video Demo (Github): https://github.com/brianalegre/09-NodeJS-Homework/blob/main/assets/images/READMEGenDemo.mp4
+-   Generated README: https://github.com/brianalegre/09-NodeJS-Homework/blob/main/assets/js/readme.md
 
 # Criteria
 
