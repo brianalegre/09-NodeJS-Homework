@@ -21,7 +21,7 @@
 ## Application Preview
 
 <p align="left">
-    <img alt="README Gen Demo 1" src="./assets/images/READMEGenDemoGif1.gif">
+    <img alt="README Gen Demo 1" src="../../assets/images/READMEGenDemoGif1.gif">
 </p>
 
 ## Installation
