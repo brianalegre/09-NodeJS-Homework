@@ -1,6 +1,7 @@
 {
 	"project": "README Generator",
 	"description": "Creates a README.md thru a node.js CLI",
+	"preview": "../../assets/images/READMEGenDemoGif1.gif",
 	"install": "Copy the repository to your system, npm install",
 	"usage": "Quickly and easily create a README.md for your your project",
 	"license": [

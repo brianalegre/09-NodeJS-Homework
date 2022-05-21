@@ -2,14 +2,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-- [Description](#Description)
-- [Application Preview](#Application-Preview)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Contributing](#Contributing)
-- [Test Instructions](#Test-Instructions)
-- [Questions](#Questions)
-- [License](#License)
+- [Description](#description)
+- [Application Preview](#application-preview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Test Instructions](#test-instructions)
+- [Questions](#questions)
+- [License](#license)
 
 ## Description
 - Creates a README.md thru a node.js CLI

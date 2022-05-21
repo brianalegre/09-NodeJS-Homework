@@ -19,6 +19,12 @@ const questions = [
 	},
 	{
 		type: 'input',
+		message: 'Link to preview Video/Picture URL?',
+		name: 'preview',
+		// default: 'It does stuff',
+	},
+	{
+		type: 'input',
 		message: 'How do I install your application?',
 		name: 'install',
 		// default: 'Copy Pasta',
@@ -93,21 +99,21 @@ const createReadme = (data) => {
 ${license}
 
 ## Table of Contents
-- [Description](#Description)
-- [Application Preview](#Application-Preview)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Contributing](#Contributing)
-- [Test Instructions](#Test-Instructions)
-- [Questions](#Questions)
-- [License](#License)
+- [Description](#description)
+- [Application Preview](#application-preview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Test Instructions](#test-instructions)
+- [Questions](#questions)
+- [License](#license)
 
 ## Description
 - ${data.description}
 
 ## Application Preview
 <p align="left">
-<img alt="README Gen Demo 1" src="../../assets/images/READMEGenDemoGif1.gif">
+<img alt="README Gen Demo 1" src="${data.preview}">
 </p>
 
 ## Installation
