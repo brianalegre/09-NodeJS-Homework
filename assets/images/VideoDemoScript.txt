@@ -1,0 +1,30 @@
+npm install
+
+node index.js
+
+#Project Name
+README Generator
+
+#Description
+Creates a README.md thru a node.js CLI
+
+#Preview 
+../../assets/images/READMEGenDemoGif1.gif
+
+#Installation
+Copy the repository to your system, npm install
+
+#Usage
+Quickly and easily create a README.md for your your project
+
+#Contributing
+Be consistent, be kind, be patient
+
+#Test Instructions
+In the terminal window, run: node index.js
+
+#Github Username
+brianalegre
+
+#Email
+brialegre@yahoo.com
